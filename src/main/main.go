@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"github.com/BLLeen/first-project/src/main/util"
 )
 
 func main() {
@@ -18,5 +19,5 @@ func main() {
 	for key, value := range counts {
 		fmt.Printf("%s出现%d次 \n", key, value)
 	}
-
+	util.Info("jjj")
 }
